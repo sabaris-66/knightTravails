@@ -1,5 +1,5 @@
 // source - a fellow odin project coder - helped me understand the problem
-
+// knight game
 function Node(pos, path) {
   if (pos[0] < 0 || pos[0] > 7 || pos[1] < 0 || pos[1] > 7) {
     return null;
